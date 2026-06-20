@@ -1,3 +1,7 @@
+
+
+// We wrap everything in an Event Listener that waits for the HTML page to load completely.
+// This ensures JavaScript can find our HTML elements properly.
 document.addEventListener("DOMContentLoaded", function() {
 
     const calcButton = document.getElementById("calculate-btn");
@@ -44,4 +48,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-});
+    
