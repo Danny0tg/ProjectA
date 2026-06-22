@@ -35,4 +35,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     console.log('🌿 GreenTech Solutions loaded successfully!');
-});
+}); 
+
+
+window.toggleFAQ = function(faqId) {
+    var answerDiv = document.getElementById(faqId);
+    
+    if (answerDiv.style.display === 'none' || answerDiv.style.display === '') {
+        var allFaqs = document.querySelectorAll('[id^="faq"]');
+        for (var i = 0; i < allFaqs.length; i++) {
+            allFaqs[i].style.display = 'none';
+        }
+        answerDiv.style.display = 'block';
+    } else {
+        answerDiv.style.display = 'none';
+    }
+};
