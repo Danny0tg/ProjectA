@@ -68,3 +68,45 @@ if (themeToggle) {
         document.body.classList.add('dark-mode');
     }
 }
+var newsletterForms = document.querySelectorAll('#newsletterForm');
+
+for (var j = 0; j < newsletterForms.length; j++) {
+    newsletterForms[j].addEventListener('submit', function(event) {
+        event.preventDefault();
+        var msgDiv = this.querySelector('#newsletterMessage') || document.createElement('div');
+        msgDiv.innerHTML = '<div style="background-color: #ccffcc; padding: 10px; border-radius: 4px; color: #006600; margin-top: 10px;">✅ Subscribed successfully!</div>';
+        this.appendChild(msgDiv);
+        this.querySelector('input[type="email"]').value = '';
+        
+        setTimeout(function() {
+            msgDiv.innerHTML = '';
+        }, 3000);
+    });
+}
+
+var themeToggle = document.getElementById('themeToggle');
+
+if (themeToggle) {
+    themeToggle.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+    });
+    
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+    }
+}
+var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+var navLinks = document.querySelectorAll('.nav a');
+
+for (var k = 0; k < navLinks.length; k++) {
+    var linkHref = navLinks[k].getAttribute('href');
+    if (linkHref === currentPage) {
+        navLinks[k].style.fontWeight = 'bold';
+        navLinks[k].style.textDecoration = 'underline';
+    }
+}
