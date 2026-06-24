@@ -110,3 +110,13 @@ for (var k = 0; k < navLinks.length; k++) {
         navLinks[k].style.textDecoration = 'underline';
     }
 }
+var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+var navLinks = document.querySelectorAll('.nav a');
+
+for (var k = 0; k < navLinks.length; k++) {
+    var linkHref = navLinks[k].getAttribute('href');
+    if (linkHref === currentPage) {
+        navLinks[k].style.fontWeight = 'bold';
+        navLinks[k].style.textDecoration = 'underline';
+    }
+}
