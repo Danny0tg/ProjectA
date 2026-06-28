@@ -27,7 +27,14 @@ body { font-family: Arial, sans-serif; background: #fff; color: var(--text); mar
 .logo { font-size: 24px; font-weight: bold; display: inline-block; color: #fff; }
 .nav { float: right; margin-top: 5px; }
 .nav a { color: #fff; text-decoration: none; margin-left: 20px; font-size: 16px; }
-
+.page-home     .nav a[href="index.html"],
+.page-about    .nav a[href="about.html"],
+.page-services .nav a[href="services.html"],
+.page-projects .nav a[href="projects.html"],
+.page-blog     .nav a[href="blog.html"],
+.page-contact  .nav a[href="contact.html"],
+.page-faq      .nav a[href="FAQ.html"] {
+  border-bottom: 2px solid #fff; padding-bottom: 2px;}
 /* HERO (Home) */
 .hero {
   background-image: url('images/hero-bg.jpg.jpg'); background-size: cover; background-position: center;
