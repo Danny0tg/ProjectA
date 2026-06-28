@@ -51,23 +51,6 @@ window.toggleFAQ = function(faqId) {
         answerDiv.style.display = 'none';
     }
 };
-
-var themeToggle = document.getElementById('themeToggle');
-
-if (themeToggle) {
-    themeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
-        if (document.body.classList.contains('dark-mode')) {
-            localStorage.setItem('theme', 'dark');
-        } else {
-            localStorage.setItem('theme', 'light');
-        }
-    });
-    
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-    }
-}
 var newsletterForms = document.querySelectorAll('#newsletterForm');
 
 for (var j = 0; j < newsletterForms.length; j++) {
@@ -84,22 +67,6 @@ for (var j = 0; j < newsletterForms.length; j++) {
     });
 }
 
-var themeToggle = document.getElementById('themeToggle');
-
-if (themeToggle) {
-    themeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
-        if (document.body.classList.contains('dark-mode')) {
-            localStorage.setItem('theme', 'dark');
-        } else {
-            localStorage.setItem('theme', 'light');
-        }
-    });
-    
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-    }
-}
 var currentPage = window.location.pathname.split('/').pop() || 'index.html';
 var navLinks = document.querySelectorAll('.nav a');
 
