@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GreenTech Solutions - Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-      <div class="header">
-        <div class = "container">
+    <!-- ===== HEADER ===== -->
+    <div class="header">
+        <div class="container">
             <div class="logo">GreenTech Company</div>
             <div class="nav">
                 <a href="index.html">Home</a>
@@ -24,64 +25,265 @@
             <div style="clear: both;"></div>
         </div>
     </div>
-   
-</div>
-    <div class="container">
-    <div class="main-section">
-        <h1 style="color: #2e7d32;">Our Projects</h1>
-        <p>Here are some of our recent successful projects.</p>
-        
-        <div class="box-container">
-            <div class="box">
-                <h3>☀️ Solar Farm Installation</h3>
-                <p><strong>Year:</strong> 2025</p>
-                <p><strong>Client:</strong> City of Greenville</p>
-                <p><strong>Impact:</strong> 2MW solar farm serving 500 homes</p>
-            </div>
-            <div class="box">
-                <h3>🏢 Green Office Building</h3>
-                <p><strong>Year:</strong> 2024</p>
-                <p><strong>Client:</strong> EcoCorp</p>
-                <p><strong>Achievement:</strong> LEED Platinum Certified</p>
-            </div>
-            <div class="box">
-                <h3>🚗 EV Charging Network</h3>
-                <p><strong>Year:</strong> 2024</p>
-                <p><strong>Client:</strong> GreenLife Inc.</p>
-                <p><strong>Impact:</strong> 50 charging stations installed</p>
-            </div>
+
+    <!-- ===== PROJECTS HERO ===== -->
+    <div class="projects-hero">
+        <div class="container">
+            <h1>🚀 Our Projects</h1>
+            <p>Real-world solutions making a real difference</p>
+            <p style="font-size: 16px; max-width: 600px; margin: 15px auto 0; opacity: 0.9;">
+                From renewable energy installations to sustainable infrastructure, explore how we're helping businesses and communities reduce their environmental impact.
+            </p>
         </div>
     </div>
-</div>
-   <div class="footer">
-    <div class="container">
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-            <div>
-                <p>© 2026 GreenTech Solutions. All rights reserved.</p>
-                <p>
-                    <a href="index.html" style="color: #fff; text-decoration: none;">Home</a> | 
-                    <a href="services.html" style="color: #fff; text-decoration: none;">Services</a> | 
-                    <a href="contact.html" style="color: #fff; text-decoration: none;">Contact</a>
-                </p>
-                <p>Email: info@greentech.com | Phone: (555) 123-4567</p>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <div class="projects-section">
+        <div class="container">
+            
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Here are some of our recent successful projects</p>
             </div>
-            <div>
-                <form id="newsletterForm">
-                    <p><strong>Subscribe to our newsletter:</strong></p>
-                    <div style="display: flex;">
-                        <input type="email" placeholder="Your email" style="padding: 8px; border: none;" required>
-                        <button type="submit" class="submit-btn" style="padding: 8px 15px; font-size: 14px;">Subscribe</button>
+
+            <!-- Project Cards -->
+            <div class="projects-grid">
+                
+                <!-- Project 1: Solar Farm -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/solarfarm.jpg" alt="Solar Farm Installation">
+                        <span class="project-status completed">Completed</span>
                     </div>
-                    <div id="newsletterMessage" style="margin-top: 10px;"></div>
-                </form>
+                    <div class="project-content">
+                        <div class="project-tag">Renewable Energy</div>
+                        <h3>☀️ Solar Farm Installation</h3>
+                        <p>A 2MW solar farm serving 500 homes with clean, renewable energy.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <span class="detail-label">Client:</span>
+                                <span class="detail-value">City of Greenville</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Year:</span>
+                                <span class="detail-value">2025</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Impact:</span>
+                                <span class="detail-value">2MW capacity, 500 homes</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">CO₂ Reduction:</span>
+                                <span class="detail-value">1,200 tons/year</span>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="project-btn">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Green Office Building -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/office.jpg" alt="Green Office Building">
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tag">Green Building</div>
+                        <h3>🏢 Green Office Building</h3>
+                        <p>LEED Platinum certified office space with sustainable design features.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <span class="detail-label">Client:</span>
+                                <span class="detail-value">EcoCorp</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Year:</span>
+                                <span class="detail-value">2024</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Certification:</span>
+                                <span class="detail-value">LEED Platinum</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Features:</span>
+                                <span class="detail-value">Solar + Rainwater</span>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="project-btn">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: EV Charging Network -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/ev.jpg" alt="EV Charging Network">
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tag">Electric Vehicles</div>
+                        <h3>🚗 EV Charging Network</h3>
+                        <p>50 charging stations installed across the city to support electric vehicle adoption.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <span class="detail-label">Client:</span>
+                                <span class="detail-value">GreenLife Inc.</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Year:</span>
+                                <span class="detail-value">2024</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Impact:</span>
+                                <span class="detail-value">50 charging stations</span>
+                            </div>
+                            <div class="project-detail">
+                                <span class="detail-label">Benefit:</span>
+                                <span class="detail-value">200+ EVs served</span>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="project-btn">View Project →</a>
+                    </div>
+                </div>
+
             </div>
-            <p>
-    <a href="#" style="color: #fff; text-decoration: none; margin: 0 5px;">📘 Facebook</a>
-    <a href="#" style="color: #fff; text-decoration: none; margin: 0 5px;">🐦 Twitter</a>
-    <a href="#" style="color: #fff; text-decoration: none; margin: 0 5px;">🔗 LinkedIn</a>
-</p>
         </div>
     </div>
-</div>
+
+    <!-- ===== IMPACT STATISTICS ===== -->
+    <div class="impact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Impact</h2>
+                <p>Making a difference through sustainable projects</p>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-item">
+                    <div class="impact-number">2,500+</div>
+                    <div class="impact-label">Tons CO₂ Reduced</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-number">1,200</div>
+                    <div class="impact-label">Homes Powered</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-number">50+</div>
+                    <div class="impact-label">EV Charging Stations</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-number">100%</div>
+                    <div class="impact-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <div class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Feedback from our project partners</p>
+            </div>
+            <div class="testimonials-container">
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">🏛️</div>
+                        <div class="testimonial-info">
+                            <h4>City of Greenville</h4>
+                            <p class="testimonial-title">Solar Farm Project</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"The solar farm has exceeded our expectations. GreenTech delivered on time and within budget."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-tag">Renewable Energy</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">🏢</div>
+                        <div class="testimonial-info">
+                            <h4>EcoCorp</h4>
+                            <p class="testimonial-title">Green Office Project</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Achieving LEED Platinum was a dream. GreenTech's expertise made it possible."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-tag">Green Building</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">🚗</div>
+                        <div class="testimonial-info">
+                            <h4>GreenLife Inc.</h4>
+                            <p class="testimonial-title">EV Charging Project</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Our employees love the new charging stations. It's been a game-changer for our sustainability goals."</p>
+                    </div>
+                    <div class="testimonial-footer">
+                        <span class="testimonial-tag">Electric Vehicles</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== CTA SECTION ===== -->
+    <div class="projects-cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's work together to create a sustainable solution for your business.</p>
+            <br>
+            <a href="contact.html" class="cta-btn">Get Started Today</a>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <div class="footer">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                <div>
+                    <p>© 2026 GreenTech Solutions. All rights reserved.</p>
+                    <p>
+                        <a href="index.html" style="color: #fff; text-decoration: none;">Home</a> | 
+                        <a href="services.html" style="color: #fff; text-decoration: none;">Services</a> | 
+                        <a href="contact.html" style="color: #fff; text-decoration: none;">Contact</a>
+                    </p>
+                    <p>Email: info@greentech.com | Phone: (555) 123-4567</p>
+                </div>
+                <div>
+                    <form id="newsletterForm">
+                        <p><strong>Subscribe to our newsletter:</strong></p>
+                        <div style="display: flex;">
+                            <input type="email" placeholder="Your email" style="padding: 8px; border: none;" required>
+                            <button type="submit" class="submit-btn" style="padding: 8px 15px; font-size: 14px;">Subscribe</button>
+                        </div>
+                        <div id="newsletterMessage" style="margin-top: 10px;"></div>
+                    </form>
+                </div>
+                <p>
+                    <a href="#" style="color: #fff; text-decoration: none; margin: 0 5px;">📘 Facebook</a>
+                    <a href="#" style="color: #fff; text-decoration: none; margin: 0 5px;">🐦 Twitter</a>
+                    <a href="#" style="color: #fff; text-decoration: none; margin: 0 5px;">🔗 LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
