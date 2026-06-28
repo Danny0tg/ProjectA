@@ -161,30 +161,6 @@ body {
     -webkit-box-shadow: 0 10px 5px rgba(0,0,0,0.1);
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
 }
-/* ==========================================
-   BOXES WITH IMAGES
-   ========================================== */
-
-/* Box container */
-.box-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Individual box */
-.box {
-    display: inline-block;
-    width: 30%;
-    background-color: #f9f9f9;
-    border: 1px solid #dddddd;
-    padding: 20px;
-    margin: 1%;
-    vertical-align: top;
-    text-align: left;
-    border-radius: 8px; /* Rounded corners */
-    transition: transform 0.3s ease; /* Smooth hover effect */
-}
-
 /* Box hover effect (optional) */
 .box:hover {
     transform: translateY(-5px);
@@ -545,47 +521,6 @@ body {
 }
 
 /* ==========================================
-   DARK MODE
-   ========================================== */
-.dark-mode .testimonials-section {
-    background-color: #1a1a1a;
-}
-
-.dark-mode .testimonial-card {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .testimonial-card:hover {
-    border-color: #2e7d32;
-}
-
-.dark-mode .testimonial-info h4 {
-    color: #ffffff;
-}
-
-.dark-mode .testimonial-title {
-    color: #aaa;
-}
-
-.dark-mode .testimonial-text {
-    color: #ccc;
-}
-
-.dark-mode .testimonial-avatar {
-    background: linear-gradient(135deg, #1b5e20, #2e7d32);
-}
-
-.dark-mode .testimonial-tag {
-    background-color: #1b5e20;
-    color: #ffffff;
-}
-
-.dark-mode .testimonial-card::before {
-    color: #1b5e20;
-}
-
-/* ==========================================
    RESPONSIVE
    ========================================== */
 @media (max-width: 768px) {
@@ -897,48 +832,6 @@ body {
     color: #555;
     margin: 0;
 }
-
-/* ==========================================
-   DARK MODE - ABOUT PAGE
-   ========================================== */
-.dark-mode .about-hero {
-    background: linear-gradient(135deg, #1b5e20, #0d1f0d);
-}
-
-.dark-mode .about-content {
-    background-color: #1a1a1a;
-}
-
-.dark-mode .about-intro,
-.dark-mode .about-card,
-.dark-mode .value-item,
-.dark-mode .about-stats,
-.dark-mode .team-card {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .about-intro-text p,
-.dark-mode .about-card p,
-.dark-mode .value-item p,
-.dark-mode .team-bio {
-    color: #ccc;
-}
-
-.dark-mode .about-card h3,
-.dark-mode .value-item h3,
-.dark-mode .team-card h4 {
-    color: #ffffff;
-}
-
-.dark-mode .stat-label {
-    color: #aaa;
-}
-
-.dark-mode .about-intro-image {
-    background: #1b5e20;
-}
-
 /* ==========================================
    RESPONSIVE - ABOUT PAGE
    ========================================== */
@@ -1339,88 +1232,6 @@ body {
 }
 
 /* ==========================================
-   DARK MODE - SERVICES PAGE
-   ========================================== */
-.dark-mode .services-hero {
-    background: linear-gradient(135deg, #1b5e20, #0d1f0d);
-}
-
-.dark-mode .services-section {
-    background-color: #1a1a1a;
-}
-
-.dark-mode .service-card {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .service-card:hover {
-    border-color: #2e7d32;
-}
-
-.dark-mode .service-content h3 {
-    color: #ffffff;
-}
-
-.dark-mode .service-content p {
-    color: #ccc;
-}
-
-.dark-mode .service-tag {
-    background-color: #1b5e20;
-    color: #ffffff;
-}
-
-.dark-mode .feature-item {
-    background-color: #3d3d3d;
-    color: #ccc;
-}
-
-.dark-mode .why-item {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .why-item h3 {
-    color: #ffffff;
-}
-
-.dark-mode .why-item p {
-    color: #ccc;
-}
-
-.dark-mode .calculator-card {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .calculator-card h2 {
-    color: #4caf50;
-}
-
-.dark-mode .calculator-card p {
-    color: #ccc;
-}
-
-.dark-mode .calc-input {
-    background: #3d3d3d;
-    border-color: #555;
-    color: #ffffff;
-}
-
-.dark-mode .calc-input:focus {
-    border-color: #2e7d32;
-}
-
-.dark-mode .services-cta {
-    background: linear-gradient(135deg, #1b5e20, #0d1f0d);
-}
-
-.dark-mode .why-choose-section {
-    background-color: #1a1a1a;
-}
-
-/* ==========================================
    RESPONSIVE - SERVICES PAGE
    ========================================== */
 @media (max-width: 992px) {
@@ -1746,72 +1557,6 @@ body {
 }
 
 /* ==========================================
-   DARK MODE - PROJECTS PAGE
-   ========================================== */
-.dark-mode .projects-hero {
-    background: linear-gradient(135deg, #1b5e20, #0d1f0d);
-}
-
-.dark-mode .projects-section {
-    background-color: #1a1a1a;
-}
-
-.dark-mode .project-card {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .project-card:hover {
-    border-color: #2e7d32;
-}
-
-.dark-mode .project-content h3 {
-    color: #ffffff;
-}
-
-.dark-mode .project-content p {
-    color: #ccc;
-}
-
-.dark-mode .project-tag {
-    background-color: #1b5e20;
-    color: #ffffff;
-}
-
-.dark-mode .project-details {
-    background: #3d3d3d;
-}
-
-.dark-mode .project-detail {
-    border-bottom-color: #555;
-}
-
-.dark-mode .detail-label {
-    color: #aaa;
-}
-
-.dark-mode .detail-value {
-    color: #ffffff;
-}
-
-.dark-mode .impact-item {
-    background: #2d2d2d;
-    border-color: #444;
-}
-
-.dark-mode .impact-number {
-    color: #4caf50;
-}
-
-.dark-mode .impact-label {
-    color: #aaa;
-}
-
-.dark-mode .projects-cta {
-    background: linear-gradient(135deg, #1b5e20, #0d1f0d);
-}
-
-/* ==========================================
    RESPONSIVE - PROJECTS PAGE
    ========================================== */
 @media (max-width: 992px) {
@@ -1885,5 +1630,404 @@ body {
     
     .project-detail {
         font-size: 12px;
+    }
+}
+/* ==========================================
+   CONTACT PAGE STYLES
+   ========================================== */
+
+/* Contact Hero */
+.contact-hero {
+    background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    color: #ffffff;
+    padding: 80px 0 60px 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact-hero h1 {
+    font-size: 48px;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+
+.contact-hero p {
+    font-size: 20px;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background-color: #f9fafb;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+/* ==========================================
+   CONTACT FORM
+   ========================================== */
+.contact-form-wrapper {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    padding: 35px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form-card h2 {
+    color: #2e7d32;
+    font-size: 28px;
+    margin: 0 0 5px 0;
+}
+
+.form-subtitle {
+    color: #666;
+    margin: 0 0 25px 0;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+/* Input Wrapper with Icon */
+.input-wrapper {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
+}
+
+.input-wrapper textarea + .input-icon {
+    top: 22px;
+    transform: none;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 15px 12px 45px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s ease;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    border-color: #2e7d32;
+    outline: none;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(46, 125, 50, 0.08);
+}
+
+textarea.form-input {
+    resize: vertical;
+    min-height: 120px;
+    padding-top: 12px;
+}
+
+/* Submit Button */
+.contact-form-wrapper .submit-btn {
+    width: 100%;
+    padding: 14px 30px;
+    font-size: 17px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+/* ==========================================
+   CONTACT INFORMATION
+   ========================================== */
+.contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    padding: 30px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.contact-info-card h3 {
+    color: #2e7d32;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.contact-info-card > p {
+    color: #666;
+    font-size: 14px;
+    margin: 0 0 25px 0;
+}
+
+/* Contact Items */
+.contact-item {
+    display: flex;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+    width: 40px;
+    text-align: center;
+}
+
+.contact-detail h4 {
+    margin: 0 0 3px 0;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+.contact-detail p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Hours Card */
+.hours-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    padding: 25px 30px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.hours-card h4 {
+    color: #2e7d32;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.hours-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hour-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 14px;
+}
+
+.hour-item:last-child {
+    border-bottom: none;
+}
+
+.hour-item .day {
+    color: #333;
+}
+
+.hour-item .time {
+    color: #555;
+    font-weight: 500;
+}
+
+/* Social Card */
+.social-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    padding: 25px 30px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.social-card h4 {
+    color: #2e7d32;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    background-color: #f0f4f0;
+    color: #2e7d32;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #2e7d32;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   MAP SECTION
+   ========================================== */
+.map-section {
+    padding: 0 0 60px 0;
+    background-color: #f9fafb;
+}
+
+.map-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.map-card h2 {
+    color: #2e7d32;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.map-card p {
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.map-placeholder {
+    background: #f5f7fa;
+    border-radius: 12px;
+    padding: 40px 20px;
+    border: 2px dashed #ddd;
+}
+
+.map-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.map-content p {
+    margin: 0;
+    color: #555;
+}
+/* ==========================================
+   RESPONSIVE - CONTACT PAGE
+   ========================================== */
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-hero h1 {
+        font-size: 32px;
+    }
+    
+    .contact-hero p {
+        font-size: 16px;
+    }
+    
+    .contact-form-wrapper {
+        padding: 25px;
+    }
+    
+    .contact-form-card h2 {
+        font-size: 24px;
+    }
+    
+    .contact-info-wrapper {
+        gap: 15px;
+    }
+    
+    .contact-info-card,
+    .hours-card,
+    .social-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-hero {
+        padding: 50px 0 40px 0;
+    }
+    
+    .contact-hero h1 {
+        font-size: 28px;
+    }
+    
+    .contact-form-wrapper {
+        padding: 18px;
+    }
+    
+    .form-input {
+        padding: 10px 12px 10px 40px;
+        font-size: 14px;
+    }
+    
+    .input-icon {
+        left: 12px;
+        font-size: 14px;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hour-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 3px;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .map-card {
+        padding: 20px;
+    }
+    
+    .map-placeholder {
+        padding: 25px 15px;
     }
 }
